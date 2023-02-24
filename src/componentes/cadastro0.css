@@ -1,0 +1,142 @@
+:root{
+	--background-menu-cor: #eff4f7;
+	--azul-fonte: #3e94c3;
+	--fonte-principal: 'Nunito';
+	--cinza-boro: #DCDCDC;
+	--branco: #FFFFFF;
+}
+
+.secao__cadastro{
+	width: 600px;
+	font-family: var(--fonte-principal);
+	color: var(--azul-fonte);
+	margin-left: 16em;
+}
+
+.secao__cadastro h3{
+	margin-top: 2em;
+}
+
+.circulo{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px;
+	margin: 15px;
+	background-color: var(--azul-fonte);
+	color: var(--branco);
+	font-size: 25px;
+	box-shadow: 0 1px 2px 4px var(--background-menu-cor);
+}
+
+.bloco__endereco{
+	align-items: center;
+	margin-top: 2em;
+	box-shadow: 3px 3px 3px 3px var(--cinza-boro);
+	
+}
+
+.bloco__endereco__t{
+	padding-top: 0.5em;
+	margin-left: 1.75em;
+}
+
+.org__table{
+	margin-left: 1.75em;
+}
+
+.org__form{
+	display: flex;
+	column-gap: 3em;
+	align-items: center;
+
+}
+
+.select__{
+	background-color: var(--branco);
+	border: 1px solid var(--azul-fonte);
+	width: 18em;
+	height: 1.8em;
+	font-family: var(--fonte-principal);
+}
+
+.select__log{
+	background-color: var(--branco);
+	border: 1px solid var(--azul-fonte);
+	width: 40em;
+	height: 1.8em;
+	font-family: var(--fonte-principal);
+}
+
+.select__num{
+	display: none;
+}
+
+.descr__input{
+	display: flex;
+	column-gap: 15em;
+}
+
+.button__1{
+	display: flex;
+	column-gap: 9em;
+	justify-content: center;
+	margin-bottom: -1.2em;
+	padding-top: 0.5em;
+}
+
+.button__1 i{
+	font-size: 50px;
+	align-items: center;
+	display: flex;
+}
+
+.id_end_box{
+	border-radius: 0.5em;
+	background-color: var(--background-menu-cor);
+	column-gap: 7em;
+	box-shadow: 3px 3px 3px 3px var(--cinza-boro);
+}
+
+.alinhar__but{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.id_end{
+	display: flex;
+	column-gap: 8em;
+	justify-content: center;
+	margin-right: 1.2em;
+}
+
+.org__button{
+	column-gap: 26em;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.button__voltar{
+	background-color: var(--branco);
+	font-family: var(--fonte-principal);
+	color: var(--azul-fonte);
+	border-radius: 4px;
+	border: 1px solid;
+	width: 4em;
+	height: 2em;
+}
+
+.button__cadastrar{
+	cursor: pointer;
+	background-color: var(--azul-fonte);
+	font-family: var(--fonte-principal);
+	color: var(--branco);
+	border-radius: 4px;
+	border: 1px solid;
+	width: 5.5em;
+	height: 2em;
+}

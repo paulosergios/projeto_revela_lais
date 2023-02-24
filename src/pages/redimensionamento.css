@@ -1,0 +1,8 @@
+.redime{
+	display: flex;
+}
+
+.home{
+	display: inline-flex;
+	width: 215vh;
+}

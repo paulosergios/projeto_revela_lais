@@ -1,0 +1,85 @@
+:root{
+	--background-menu-cor: #eff4f7;
+	--azul-fonte: #3e94c3;
+	--fonte-principal: 'Nunito';
+	--branco: #FFFFFF;
+	--button-entrar: #5a859f;
+}
+
+.section__sabia{
+	display: grid;
+	background-color: var(--background-menu-cor);
+	width: 60%;
+	height: 100vh;
+	align-items: center;
+	color: var(--azul-fonte);
+	font-family: var(--fonte-principal);
+}
+
+.section__sabia p{
+	text-align: center;
+	font-weight: 600;
+	color: var(--button-entrar);
+	font-size: 20px;
+}
+
+.section__sabia a{
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.botao__sabia{
+	row-gap: 1em;
+	display: grid;
+	justify-content: center;
+}
+
+.botao__sabia button{
+	font-family: var(--fonte-principal);
+	color: var(--branco);
+	font-weight: normal;
+}
+
+.botao__sabia img{
+	width: 12%;
+}
+
+.button__entrar{
+	cursor: pointer;
+	background-color: var(--button-entrar);
+	border-radius: 5px;
+	border: 1px solid var(--button-entrar);
+	width: 200px;
+	height: 40px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	column-gap: 1.5em;
+	padding-left: 0.7em;
+	font-size: 15px;
+}
+
+.button__criar{
+	cursor: pointer;
+	background-color: var(--azul-fonte);
+	border-radius: 5px;
+	border: 1px solid var(--azul-fonte);
+	width: 200px;
+	height: 40px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	column-gap: 1.1em;
+	padding-left: 0.7em;
+	font-size: 15px;
+}
+
+.saiba__mais{
+	display: flex;
+	align-items: center;
+	column-gap: 2em;
+}
