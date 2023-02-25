@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### Necessário Instalar
+
+## `npm i sweetalert2`
+
+## `npm i react-pro-sidebar` 
+
 In the project directory, you can run:
 
 ### `npm start`
