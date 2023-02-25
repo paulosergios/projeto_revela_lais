@@ -3,7 +3,6 @@ import { ProSidebarProvider } from 'react-pro-sidebar';
 
 import MySideNav from '../componentes/novomedu';
 import Cabecalho from '../componentes/cabecalho';
-import Lista from '../componentes/lista_cadastro_1'
 
 import './redimensionamento.css'
 
@@ -16,7 +15,6 @@ function Lista_pacientes(){
   				<MySideNav />
 				</ProSidebarProvider>
 			</div>
-			<Lista />
 		</div>
 	);
 }
